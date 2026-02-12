@@ -175,10 +175,11 @@ h1{
   display:flex;
   gap:14px;
   margin-top:12px;
-  margin-top:12px;
-  margin-bottom:-10px;
   flex-wrap:wrap;
   justify-content:center;
+
+  position: relative;
+  top: -22px;   /* ← moves buttons upward */
 }
 .hero-art{position:relative; min-height:360px}
 .hero-card{
