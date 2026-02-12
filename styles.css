@@ -404,6 +404,10 @@ h3{
 .contact{
   padding:70px 0;
 }
+
+.contact .cta-row{
+  justify-content:center;
+}
 .contact-inner{
   text-align:center;
   border:1px solid var(--line);
