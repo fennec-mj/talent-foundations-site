@@ -219,7 +219,7 @@ h1{
   right:-10%;
 
   top:281px;        /* vertical placement — starts below paragraph */
-  height:520px;     /* thickness of the band */
+  height:580px;     /* thickness of the band */
 
   background: radial-gradient(circle at 20% 30%, rgba(189,212,251,.55) 0%, rgba(189,212,251,0) 55%),
               radial-gradient(circle at 55% 40%, rgba(194,217,184,.55) 0%, rgba(194,217,184,0) 55%),
