@@ -173,8 +173,8 @@ h1{
 }
 .cta-row{
   display:flex;
-  gap:12px;
-  margin-top:16px;
+  gap:14px;
+  margin-top:24px;
   flex-wrap:wrap;
   justify-content:center;
 }
