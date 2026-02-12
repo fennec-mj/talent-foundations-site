@@ -97,12 +97,12 @@ a:hover{text-decoration:underline}
 }
 
 .btn-secondary{
-  background:transparent;
+  background:rgba(189,212,251,.18); /* subtle fill */
   border-color:#BDD4FB;
   color:#1f1f1f;
 }
 .btn-secondary:hover{
-  background:rgba(189,212,251,.18);
+  background:rgba(189,212,251,.28);
 }
 
 .hamburger{
@@ -231,18 +231,17 @@ h1{
   position:absolute;
   left:-10%;
   right:-10%;
+  top:-60px;          /* start near top of hero */
+  height:560px;       /* covers most of hero area */
 
-  top:281px;        /* vertical placement — starts below paragraph */
-  height:580px;     /* thickness of the band */
-
-  background: radial-gradient(circle at 20% 30%, rgba(189,212,251,.55) 0%, rgba(189,212,251,0) 55%),
-              radial-gradient(circle at 55% 40%, rgba(194,217,184,.55) 0%, rgba(194,217,184,0) 55%),
-              radial-gradient(circle at 85% 45%, rgba(245,182,161,.40) 0%, rgba(245,182,161,0) 55%),
-              radial-gradient(circle at 35% 70%, rgba(246,227,209,.65) 0%, rgba(246,227,209,0) 55%);
+  background: radial-gradient(circle at 20% 30%, rgba(189,212,251,.45) 0%, rgba(189,212,251,0) 60%),
+              radial-gradient(circle at 55% 40%, rgba(194,217,184,.45) 0%, rgba(194,217,184,0) 60%),
+              radial-gradient(circle at 85% 45%, rgba(245,182,161,.30) 0%, rgba(245,182,161,0) 60%),
+              radial-gradient(circle at 35% 70%, rgba(246,227,209,.55) 0%, rgba(246,227,209,0) 60%);
 
   z-index:0;
   pointer-events:none;
-  opacity:.9;
+  opacity:.85;
 }
 
 /* Sections */
