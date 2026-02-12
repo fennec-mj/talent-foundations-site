@@ -396,7 +396,20 @@ h3{
   object-position: 50% 30%;
   display:block;
 }
+/* Founder topics list — cleaner bullets */
+.topic-grid .list{
+  margin: 0;
+  padding-left: 18px;
+}
 
+.topic-grid .list li{
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.topic-grid .list li::marker{
+  color: rgba(0,0,0,.35);
+}
 .faq details{
   border:1px solid var(--line);
   background:rgba(255,255,255,.55);
