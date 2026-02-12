@@ -380,7 +380,7 @@ h3{
 }
 /* My Approach: prevent the CTA button from overlapping the last quote */
 .approach-points .btn{
-  margin-top: 8px;     /* push it down a touch */
+  margin-top: 12px;     /* push it down a touch */
   margin-bottom: 0;    /* avoid weird collapses */
 }
 
