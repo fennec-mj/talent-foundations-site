@@ -174,7 +174,9 @@ h1{
 .cta-row{
   display:flex;
   gap:14px;
-  margin-top:10px;
+  margin-top:12px;
+  margin-top:12px;
+  margin-bottom:-10px;
   flex-wrap:wrap;
   justify-content:center;
 }
