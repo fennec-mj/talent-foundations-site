@@ -165,8 +165,13 @@ h1{
   color:var(--muted);
   margin:0 0 12px;
 }
-.cta-row{display:flex; gap:12px; margin-top:16px; flex-wrap:wrap}
-
+.cta-row{
+  display:flex;
+  gap:12px;
+  margin-top:16px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
 .hero-art{position:relative; min-height:360px}
 .hero-card{
   border:1px solid var(--line);
