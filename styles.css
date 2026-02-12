@@ -63,7 +63,7 @@ a:hover{text-decoration:underline}
   padding:14px 0;
 }
 .brand{display:flex; align-items:center; gap:10px}
-.brand-mark{width:40px; height:40px}
+.brand-mark{width:44px; height:44px}
 .brand-name{
   font-family:var(--serif);
   font-weight:600;
