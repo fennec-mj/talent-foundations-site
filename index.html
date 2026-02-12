@@ -302,59 +302,65 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="container contact-inner">
-        <h2>Ready to build your hiring foundations?</h2>
-        <p class="body">Book a complimentary intro call.</p>
-<div class="cta-row">
-  <a href="https://calendly.com/talent-foundations/meetingwithmegan?back=1"
-     target="_blank" rel="noopener">
-     Book a Call
-  </a>
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <h2>Ready to build your hiring foundations?</h2>
+      <p class="body">Book a complimentary intro call.</p>
 
-  <a class="btn btn-secondary"
-     href="mailto:megan@talent-foundations.com?subject=Intro%20Call%20Request">
-     Email Me
-  </a>
-</div>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="logo_leaf.png" alt="" />
-        <div>
-          <div class="footer-name">Talent Foundations</div>
-          <div class="muted small">Strategy • Operations • Recruiting</div>
-        </div>
-      </div>
-
-      <div class="footer-links">
-        <a href="#services">Services</a>
-        <a href="#approach">My Approach</a>
-        <a href="#about">About</a>
+      <div class="cta-row">
         <a class="btn btn-primary"
-   href="https://calendly.com/talent-foundations/meetingwithmegan?back=1"
-   target="_blank" rel="noopener">
-   Book a Call
-</a>
+           href="https://calendly.com/talent-foundations/meetingwithmegan?back=1"
+           target="_blank" rel="noopener">
+          Book a Call
+        </a>
+
+        <a class="btn btn-secondary"
+           href="mailto:megan@talent-foundations.com?subject=Intro%20Call%20Request">
+          Email Me
+        </a>
       </div>
-
-      <div class="muted small">© <span id="year"></span> Talent Foundations. All rights reserved.</div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script>
-    // Mobile menu toggle
-    const btn = document.querySelector('.hamburger');
-    const menu = document.querySelector('.mobile-menu');
-    btn?.addEventListener('click', () => {
-      const expanded = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', String(!expanded));
-      menu.hidden = expanded;
-    });
+</main>
 
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="logo_leaf.png" alt="Talent Foundations" />
+      <div>
+        <div class="footer-name">Talent Foundations</div>
+        <div class="muted small">Strategy • Operations • Recruiting</div>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#approach">My Approach</a>
+      <a href="#about">About</a>
+      <a href="https://calendly.com/talent-foundations/meetingwithmegan?back=1" target="_blank" rel="noopener">
+        Book a Call
+      </a>
+    </div>
+
+    <div class="muted small">© <span id="year"></span> Talent Foundations. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  const btn = document.querySelector('.hamburger');
+  const menu = document.querySelector('.mobile-menu');
+  btn?.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    menu.hidden = expanded;
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
