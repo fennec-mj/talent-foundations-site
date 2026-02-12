@@ -177,9 +177,10 @@ h1{
   margin-top:12px;
   flex-wrap:wrap;
   justify-content:center;
-
+}
+.hero .cta-row{
   position: relative;
-  top: -22px;   /* ← moves buttons upward */
+  top: -22px;
 }
 .hero-art{position:relative; min-height:360px}
 .hero-card{
