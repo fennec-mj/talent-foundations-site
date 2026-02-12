@@ -88,16 +88,22 @@ a:hover{text-decoration:underline}
   white-space:nowrap;
 }
 .btn-primary{
-  background:var(--ink);
-  color:var(--cream);
+  background:#BDD4FB;
+  color:#1f1f1f;
+  border-color:#BDD4FB;
 }
-.btn-primary:hover{opacity:.92}
+.btn-primary:hover{
+  filter:brightness(.96);
+}
+
 .btn-secondary{
   background:transparent;
-  border-color:var(--line);
-  color:var(--ink);
+  border-color:#BDD4FB;
+  color:#1f1f1f;
 }
-.btn-secondary:hover{background:rgba(255,255,255,.55)}
+.btn-secondary:hover{
+  background:rgba(189,212,251,.18);
+}
 
 .hamburger{
   display:none;
