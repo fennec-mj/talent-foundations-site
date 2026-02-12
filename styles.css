@@ -176,7 +176,10 @@ h1{
   box-shadow: 0 18px 50px rgba(0,0,0,.06);
 }
 .hero-card-top{display:flex; justify-content:center; padding:10px 6px 8px}
-.wordmark{max-width:100%; height:auto}
+.wordmark{display:block;
+  max-width:100%;
+  height:auto;
+  max-height:64px;}
 .hero-card-bottom{
   display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
   padding-top:6px;
