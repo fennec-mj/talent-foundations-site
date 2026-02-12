@@ -378,6 +378,11 @@ h3{
   border-radius:18px;
   padding:16px;
 }
+/* My Approach: prevent the CTA button from overlapping the last quote */
+.approach-points .btn{
+  margin-top: 8px;     /* push it down a touch */
+  margin-bottom: 0;    /* avoid weird collapses */
+}
 
 .about .photo{
   border-radius:22px;
