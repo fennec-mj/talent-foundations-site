@@ -247,7 +247,23 @@ h1{
   pointer-events:none;
   opacity:.85;
 }
-
+/* Hero brand lockup */
+.brand-lockup{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+.brand-mark-lg{
+  width:44px;
+  height:44px;
+}
+.brand-name-lg{
+  font-family:var(--serif);
+  font-weight:600;
+  letter-spacing:.2px;
+  font-size:22px;
+}
 /* Sections */
 .section{
   padding:64px 0;
