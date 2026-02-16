@@ -266,6 +266,14 @@ h1{
   letter-spacing:.2px;
   font-size:22px;
 }
+.hero{
+  padding:96px 0 96px;
+}
+
+.hero-wave{
+  top:-80px;
+  height:720px;
+}
 /* Sections */
 .section{
   padding:64px 0;
