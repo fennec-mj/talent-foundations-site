@@ -147,8 +147,10 @@ a:hover{text-decoration:underline}
   z-index: 1;
 }
 .eyebrow{
-  font-size:12px;
-  letter-spacing:.14em;
+  font-size:14px;
+  letter-spacing:.18em;
+  font-weight:600;
+  opacity:.85;
   text-transform:uppercase;
   color:var(--muted);
   margin-bottom:10px;
